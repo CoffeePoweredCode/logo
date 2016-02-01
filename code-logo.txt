@@ -1,0 +1,67 @@
+Logos
+=====
+
+Singleline
+----------
+
+<CoffeePoweredCode />
+
+new CoffeePoweredCode();
+
+if Coffee.Powered(): Code()
+
+exec $CoffeePoweredCode; exit 0;
+
+"$(Coffee)$(Powered)$(Code)"
+
+python -m "CoffeePoweredCode"
+
+npm install -g CoffeePoweredCode
+
+pip install CoffeePoweredCode
+
+workon CoffeePoweredCode
+
+> Coffee --Powered --Code
+
+Multiline
+---------
+
+val michael = _ match {
+  case Coffee => drinkIt()
+  case Powered => up()
+  case Code => breakIt()
+}
+
+<Coffee Powered="Code" />
+
+developer { 'michael':
+  drink  => Coffee,
+  ensure => Powered,
+  write  => Code,
+}
+
+if Coffee &&
+   Powered:
+   Code()
+
+def hotCoffee():
+    if Powered():
+       Code()
+
+__Coffee_PoweredCode()
+
+var michael = {
+  'Coffee': 'Good',
+  'Powered': true,
+  'Code': '\u2603'
+}
+
+function develop() {
+  return CoffeePoweredCode();
+};
+
+._Coffee{
+  Powered: 100%;
+  Code: '\u2603';
+}

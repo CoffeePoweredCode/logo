@@ -1,0 +1,46 @@
+.logo {
+  font-size: 50px;
+  line-height: 0.9em;
+  letter-spacing: -0.05em;
+  margin: 1em 6em;
+  display: inline-block;
+  position: relative;
+  float: left;
+  clear: left;
+}
+
+.mono {
+  white-space: pre;
+  font-family: Source Code Pro;
+  color: #d9d9d9;
+  position: absolute;
+}
+
+.coffee {
+  font-family: Aller light;
+  display: block;
+}
+
+.pre {
+  right: 3.85em;
+}
+.post-coffee:before {
+  content: "     ";
+}
+.post-powered:before {
+  content: "      ";
+}
+.post-code:before {
+  content: "    ";
+}
+
+.powered {
+  font-family: Aller;
+  display: block;
+}
+
+.code {
+  font-family: Aller;
+  font-weight: 900;
+  display: block;
+}
