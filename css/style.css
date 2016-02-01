@@ -3,44 +3,51 @@
   line-height: 0.9em;
   letter-spacing: -0.05em;
   margin: 1em 6em;
-  display: inline-block;
-  position: relative;
   float: left;
   clear: left;
 }
 
-.mono {
+.logo div {
+  height: 45px;
+  display: block;
+  position: relative;
+}
+
+.logo span {
   white-space: pre;
   font-family: Source Code Pro;
+  font-weight: 100;
   color: #d9d9d9;
   position: absolute;
 }
 
-.coffee {
-  font-family: Aller light;
-  display: block;
+.code-only {
+  position: initial;
 }
 
+.pre:before {
+  content: none !important;
+}
 .pre {
   right: 3.85em;
 }
-.post-coffee:before {
+.coffee span:before {
   content: "     ";
 }
-.post-powered:before {
+.powered span:before {
   content: "      ";
 }
-.post-code:before {
+.code span:before {
   content: "    ";
 }
 
+.coffee {
+  font-family: Aller light;
+}
 .powered {
   font-family: Aller;
-  display: block;
 }
-
 .code {
   font-family: Aller;
   font-weight: 900;
-  display: block;
 }
