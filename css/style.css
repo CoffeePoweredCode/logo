@@ -2,23 +2,24 @@
   font-size: 50px;
   line-height: 0.9em;
   letter-spacing: -0.05em;
-  margin: 1em 6em;
+  margin: 1em 10em;
   float: left;
   clear: left;
 }
 
 .logo div {
-  height: 45px;
+  height: 47px;
   display: block;
   position: relative;
 }
 
 .logo span {
   white-space: pre;
-  font-family: Source Code Pro;
+  font-family: Source Code Pro Light;
   font-weight: 100;
   color: #d9d9d9;
   position: absolute;
+  letter-spacing: -0.1em;
 }
 
 .code-only {
@@ -29,13 +30,13 @@
   content: none !important;
 }
 .pre {
-  right: 3.85em;
+  right: 3.65em;
 }
 .coffee span:before {
   content: "     ";
 }
 .powered span:before {
-  content: "      ";
+  content: "       ";
 }
 .code span:before {
   content: "    ";
