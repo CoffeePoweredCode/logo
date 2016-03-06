@@ -65,3 +65,9 @@ function develop() {
   Powered: 100%;
   Code: '\u2603';
 }
+
+select Coffee,
+       Powered,
+       Code
+from developers
+where code_fu = 'master'
