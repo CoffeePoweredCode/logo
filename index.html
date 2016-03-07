@@ -3,9 +3,44 @@
     <meta charset="utf-8">
     <title>Logos</title>
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://github.com/niklasvh/html2canvas/releases/download/0.5.0-alpha1/html2canvas.js"></script>
+    <script src="https://raw.githack.com/hongru/canvas2image/master/canvas2image.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      var logos = [
+        [
+          'val michael = _ match {',
+          '  case Coffee => drinkIt()',
+          '  case Powered => up()',
+          '  case Code => breakIt()',
+          '}',
+        ]
+      ];
+      function splitLine(line) {
+        return {
+          'code-only': true,
+          'pre': '',
+          'post': '',
+          'logotype': ''
+        }
+      }
+      function render(logo) {
+        for (line in logo) {
+          var parts = splitLine(line)
+          // Dom manipulation to build the line parts
+          console.log(parts);
+        }
+      }
+      //render(logos[0]);
+    </script>
   </head>
   <body>
 
+    <div id="img-out"></div>
+
+    <input type="button" id="btnSave" value="Save PNG"/>
+
+    <div id="widget" class="icon1">
     <div class="logo">
       <div class="coffee">
         <span class="pre">if </span>
@@ -19,6 +54,59 @@
       <div class="code">
         <span>();</span>
         Code
+      </div>
+    </div>
+    <div style="clear:both"></div>
+    </div>
+
+    <div class="logo">
+      <div>
+        <span class="pre">|||||||||</span>
+        <span>||||||||||||||||</span>
+      </div>
+      <div class="coffee">
+        <span class="pre">|||||||||</span>
+        <span>||||||||||</span>
+        Coffee
+      </div>
+      <div class="powered">
+        <span class="pre">|||||||||</span>
+        <span>||||||||</span>
+        Powered
+      </div>
+      <div class="code">
+        <span class="pre">|||||||||</span>
+        <span>|||||||||||</span>
+        Code
+      </div>
+      <div>
+        <span class="pre">|||||||||</span>
+        <span>||||||||||||||||</span>
+      </div>
+    </div>
+
+    <div class="logo">
+      <div>
+        <span class="pre">&#9608;</span>
+        <span>&#9608;</span>
+      </div>
+      <div class="coffee">
+        <span class="pre">&#9608;</span>
+        <span>&#9608;</span>
+        Coffee
+      </div>
+      <div class="powered">
+        <span class="pre">&#9608;</span>
+        <span>&#9608;</span>
+        Powered
+      </div>
+      <div class="code">
+        <span class="pre">&#9608;</span>
+        <span>&#9608;</span>
+        Code
+      </div>
+      <div>
+        <span class="pre">&#9608;</span>
       </div>
     </div>
 
@@ -80,7 +168,7 @@
       </div>
       <div class="powered">
         <span class="pre"></span>
-        <span>': true,</span>
+        <span>: true,</span>
         Powered
       </div>
       <div class="code">
@@ -114,7 +202,7 @@
         Code
       </div>
       <div>
-        <span class="pre">}      </span>
+        <span class="pre">}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
       </div>
     </div>
   </body>
