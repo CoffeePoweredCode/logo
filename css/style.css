@@ -11,7 +11,7 @@
 }
 
 .logo {
-  font-size: 50px;
+  font-size: 100px;
   line-height: 0.9em;
   letter-spacing: -0.05em;
   margin: 1em 10em;
@@ -25,7 +25,22 @@
   position: relative;
 }
 
+.logo .coffee {
+  letter-spacing: -0.055em;
+  font-family: Aller light;
+}
+.logo .powered {
+  letter-spacing: -0.056em;
+  font-family: Aller;
+}
+.logo .code {
+  letter-spacing: -0.035em;
+  font-family: Aller;
+  font-weight: 900;
+}
+
 .logo span {
+  letter-spacing: -0.05em;
   white-space: pre;
   font-family: 'Source Code Pro';
   font-weight: 400;
@@ -43,25 +58,18 @@
   content: none !important;
 }
 .pre {
-  right: 4.5em;
+  right: 4.4em !important;
+  left: auto !important;
 }
-.coffee span:before {
-  content: "      ";
+.coffee span {
+  left: 3.3em;
 }
-.powered span:before {
-  content: "        ";
+.powered span {
+  left: 4.4em;
 }
-.code span:before {
-  content: "     ";
+.code span {
+  left: 2.75em;
 }
-
-.coffee {
-  font-family: Aller light;
-}
-.powered {
-  font-family: Aller;
-}
-.code {
-  font-family: Aller;
-  font-weight: 900;
+html {
+  background: #fff;
 }
