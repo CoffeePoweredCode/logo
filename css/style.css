@@ -12,7 +12,6 @@
 
 .logo {
   font-size: 100px;
-  line-height: 0.9em;
   letter-spacing: -0.05em;
   margin: 1em 10em;
   float: left;
@@ -21,6 +20,7 @@
 
 .logo div {
   height: 0.9em;
+  line-height: 0.9em;
   display: block;
   position: relative;
 }
