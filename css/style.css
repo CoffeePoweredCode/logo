@@ -1,3 +1,15 @@
+@font-face{
+    font-family: 'Source Code Pro';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('http://adobe-fonts.github.io/source-code-pro/EOT/SourceCodePro-Regular.eot') format('embedded-opentype'),
+         url('http://adobe-fonts.github.io/source-code-pro/WOFF2/TTF/SourceCodePro-Regular.ttf.woff2') format('woff2'),
+         url('http://adobe-fonts.github.io/source-code-pro/WOFF/OTF/SourceCodePro-Regular.otf.woff') format('woff'),
+         url('http://adobe-fonts.github.io/source-code-pro/OTF/SourceCodePro-Regular.otf') format('opentype'),
+         url('http://adobe-fonts.github.io/source-code-pro/TTF/SourceCodePro-Regular.ttf') format('truetype');
+}
+
 .logo {
   font-size: 50px;
   line-height: 0.9em;
@@ -15,8 +27,8 @@
 
 .logo span {
   white-space: pre;
-  font-family: Source Code Pro Light;
-  font-weight: 100;
+  font-family: 'Source Code Pro';
+  font-weight: 400;
   color: #d9d9d9;
   position: absolute;
   letter-spacing: -0.1em;
