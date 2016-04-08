@@ -10,10 +10,21 @@
          url('http://adobe-fonts.github.io/source-code-pro/TTF/SourceCodePro-Medium.ttf') format('truetype');
 }
 
+#logo {
+  width: 100%;
+}
+
+.logo:after,
+#logo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .logo {
-  font-size: 100px;
+  font-size: 50px;
   letter-spacing: -0.05em;
-  margin: 1em 10em;
+  margin: 1em 6em;
   float: left;
   clear: left;
 }
@@ -49,6 +60,11 @@
   color: #d9d9d9;
   position: absolute;
   z-index: -1;
+  -webkit-transform: scale(1.0, 1.2);
+     -moz-transform: scale(1.0, 1.2);
+      -ms-transform: scale(1.0, 1.2);
+       -o-transform: scale(1.0, 1.2);
+          transform: scale(1.0, 1.2);
 }
 
 .code-only {
